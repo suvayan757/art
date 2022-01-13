@@ -1,0 +1,593 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+html{
+    font-size: 100%;
+}
+html::-webkit-scrollbar{
+    width:0.5vw;
+}
+
+html::-webkit-scrollbar-thumb{
+background-color: #22329A;
+opacity: 0.1;
+}
+html::-webkit-scrollbar-track{
+    background-color: #000F10;
+}
+body{
+    overflow-x: hidden;
+}
+
+
+/* --------------------------------Navbar-------------------- */
+
+
+#nav{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    background-color: #AE0049;
+    color: white;
+}
+.left{
+    padding: 1em;
+    width: 50%;
+    font-size: 1.1em;
+    letter-spacing: 0.1em;
+    padding-left: 3em;
+}
+.right{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    padding-right: 4em;
+}
+.right .nav-elements{
+    padding: 1em;
+}
+.nav-elements{
+    display: none;
+}
+.button{
+    /* padding: 0.5em 0.6em; */
+    /* margin: 1em; */
+    /* border: 2px solid white; */
+    background-color: #AE0049;
+    border: none;
+}
+.button .lines{
+width: 1.4rem;
+height: 0.2rem;
+background-color: white;
+margin: 0.4rem 0rem;
+}
+.button:hover{
+    cursor: pointer;
+    /* background-color: rgb(228, 228, 228); */
+}
+
+
+/* -----------------------hero section----------------------- */
+
+
+
+#hero{
+    display: flex;
+}
+#hero .left{
+    /* border: 2px solid red; */
+    width: 40%;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1473081556163-2a17de81fc97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGVhdmVzfGVufDB8fDB8fA%3D%3D&w=1000&q=80');
+    background-size: cover;
+    background-position: 50% 50%;
+
+}
+#hero .left .green{
+    position: relative;
+    z-index: 9;
+    /*  */
+    width:25rem;
+    height: 25rem;
+    background-color: #2A9A30;
+    margin: 30vh 0vh 0vw 21vw;
+    padding-top: 22.3rem;
+    padding-left: 10rem;
+}
+#hero .left .green span{
+    color: white;
+    position: relative;
+    z-index: 19;
+    /* margin: 2rem 0rem 0rem 2rem; */
+    /* border: 2px solid yellow; */
+    display: block;
+    padding-left: 8rem;
+    margin-right: -5rem;
+}
+
+#hero .left .img{
+    position: relative;
+    z-index: 12;
+    /* border: 2px solid yellow; */
+    width:25rem;
+    height: 25rem;
+    background-image: url('https://www.wallpapertip.com/wmimgs/176-1765810_women-artwork-digital-art-painting-inked-girls-digital.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    margin: -68vh 0vh 0vw 25vw;
+}
+#hero .left .blue{
+    position: relative;
+    z-index: 10;
+    /* border: 2px solid yellow; */
+    width:45rem;
+    height: 20rem;
+    background-color: #22329A;
+    margin: -68vh 0vw 0vh 31vw;
+}
+#hero .left .head{
+    color: white;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* border: 2px solid red; */
+    background-color:#AE0049 ;
+    position:relative;
+    z-index: 13;
+    margin: -35vh 3vw 0vh 50vw;
+    font-size: 3rem;
+    line-height: 4rem;
+    padding: 1rem;
+
+}
+#hero .left .head span{
+    display: block;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#hero .right{
+    /* border: 2px solid yellow; */
+width: 60%;
+height: 100vh;
+background-color: #2A9A30;
+}
+
+#hero .right h1{
+    /* border: 2px solid red; */
+    position: relative;
+    z-index: 20;
+    justify-content: center;
+    text-align: center;
+    width: 5rem;
+    height: 5rem;
+    margin: 74vh 31vw 0vh 0vw;
+    color: #AE0049;
+    transform: rotate(270deg);
+    font-size: 3.6rem;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: -0.1rem;
+}
+
+
+
+/* -------------------------first block---------------------- */
+
+
+
+#a1{
+    display: flex;
+   background-color: #000F10;
+   height: 100vh;
+   width: 100vw; 
+}
+
+#a1 .blue{
+    width: 30%;
+    height: 85%;
+    background-color: #22329A;
+    padding: 10rem 3rem;
+    padding-right: 10rem;
+    margin-left: 8.15rem;
+}
+.line{
+    position: relative;
+    z-index: 15;
+    border: 0.1rem solid white;
+    background-color: white;
+    top: 0.5rem;
+    margin-left: -5rem;
+    width: 4rem;
+}
+#a1 .blue p{
+    position: relative;
+    text-align: justify;
+    color: white;
+}
+
+#a1 .green{
+    position: relative;
+    z-index: 15;
+    background-color: #2A9A30;
+    width: 30rem;
+    height: 25rem;
+    margin: 5rem 0rem 0rem -5rem;
+}
+#a1 .green .img{
+    position: relative;
+    z-index: 20;
+    /* border: 2px solid red; */
+    width: 20rem;
+    height: 23rem;
+    margin: 5rem 3rem -20rem 5rem;
+    background-image: url('https://cdn20.pamono.com/p/s/5/4/541853_53xjs61mcw/tiger-s-soul-acrylic-painting-by-raphael-laventure.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+#a1 .green .pink{
+    width: 50%;
+    height: 10%;
+    background-color: #AE0049;
+    position: relative;
+    z-index: 30;
+    margin: 13rem 13rem -40rem 19rem;
+}
+#a1 .green .pink h2{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin: 1rem;
+    font-weight: 400;
+}
+#a1 h1{
+    color: white;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transform: rotate(90deg);
+    /* border: 2px solid white; */
+    width:4rem;
+    height: 5rem;
+    font-size: 3.6rem;
+    margin-top:4.5rem;
+}
+
+
+
+/* -------------------------second block---------------------- */
+
+
+#a2{
+   display: flex;
+   background-color: #000F10;
+   height: 88vh;
+   width: 100vw; 
+}
+#a2 .green{
+    position: relative;
+    z-index: 15;
+    background-color: #2A9A30;
+    width: 23rem;
+    height: 25rem;
+    margin: 0rem 0rem 0rem 11rem;
+}
+#a2 .green .img{
+    position: relative;
+    z-index: 20;
+    /* border: 2px solid red; */
+    width: 20rem;
+    height: 23rem;
+    margin: 5rem 3rem -20rem -3rem;
+    background-image: url('https://cdn.mwallpapers.com/photos/3d-abstract/abstract/colorful-abstract-art-wallpaper-download-hd-colorful-abstract-art-android-iphone-hd-wallpaper-background-downloadhd-wallpapers-desktop-background-android-iphone-1080p-4k-aybn6.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+#a2 .green .pink{
+    width: 60%;
+    height: 10%;
+    background-color: #AE0049;
+    position: relative;
+    z-index: 30;
+    margin: 13rem 13rem -40rem 13rem;
+}
+#a2 .green .pink h2{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin: 1rem;
+    font-weight: 400;
+}
+#a2 h1{
+    color: white;
+    position: relative;
+    z-index: 40;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* border: 2px solid white; */
+    transform: rotate(270deg);
+    width:4rem;
+    height: 5rem;
+    font-size: 3.6rem;
+    margin-top:20.8rem;
+    margin-left: 19rem;
+    color: #22329A;
+}
+#a2 .img{
+    /* border: 2px solid white; */
+    position: relative;
+    z-index: 15;
+    width: 35rem;
+    height: 20rem;
+    margin-left: 10rem;
+    background-image: url('https://images.unsplash.com/photo-1533563906091-fdfdffc3e3c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80');
+    background-size: cover;
+}
+#a2 .blue{
+    position: relative;
+    z-index: 30;
+    width: 30%;
+    height: 50%;
+    background-color: #22329A;
+    padding: 3rem 3rem;
+    margin-left: -30rem;
+    margin-top: 7rem;
+}
+#a2 .blue p{
+    color: white;
+    text-align: justify;
+}
+.btn{
+    margin: 2rem 0rem;
+    padding: 0.5rem;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    letter-spacing: 0.1rem;
+    transition: 0.3s ease;
+}
+.btn:hover{
+    background-color: white;
+    color: #22329A;
+}
+
+
+
+/* -------------------------Third block---------------------- */
+
+
+
+#a3{
+    /* border: 2px solid white; */
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #AE0049;
+    height: 100vh;
+    width: 100vw; 
+ }
+ /* #a3 h1{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-text-stroke: 1px black;
+   color: #000F10;
+   text-shadow:
+       3px 3px 0 white,
+     -1px -1px 0 white,  
+      1px -1px 0 white,
+      -1px 1px 0 white,
+       1px 1px 0 white;
+     font-size: 5rem;
+     border: 2px solid red;
+ } */
+ 
+ #a3 h1{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-text-stroke: 2px white;
+    font-size: 5rem;
+    color: transparent;
+    margin: -1rem;
+    position: relative;
+    z-index: 20;
+ }
+ #a3 .green{
+     position: relative;
+     z-index: 10;
+     background-color: #2A9A30;
+     width: 40%;
+     height: 10%;
+     margin-bottom:-2.5rem;
+     margin-left: -17.5rem;
+ }
+ #a3 .blue{
+     background-color: #22329A;
+     width: 70%;
+     height: 0.5rem;
+     margin-top: 0.8rem;
+     margin-right: -29rem;
+ }
+
+/* #a3 .white{
+    color: white;
+    -webkit-text-stroke: none;
+    font-weight: 50;
+
+ } */
+
+
+
+ /* -------------------------fourth block---------------------- */
+
+
+
+ #a4{
+    /* padding: 2rem; */
+    display: flex;
+    background-color: #000F10;
+    height: 80vh;
+    width: 100vw; 
+ }
+ #a4 .left{
+     width: 70%;
+     display: flex;
+     align-items: center    ;
+ }
+
+ #a4 .img{
+     position: relative;
+     z-index: 10;
+    /* border: 2px solid white; */
+    position: relative;
+    z-index: 15;
+    width: 35rem;
+    height: 25rem;
+    margin-left: 4rem;
+    background-image: url('https://images.unsplash.com/photo-1533563906091-fdfdffc3e3c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80');
+    background-size: cover;
+}
+#a4 .pink{
+    position: relative;
+    z-index: 17;
+    background-color: #AE0049;
+    /* border: 2px solid white; */
+    width: 45rem;
+    height: 15rem;
+    margin-left: -35rem;
+    margin-top: 2rem;
+    margin-right: 13rem;
+}
+#a4 .bg{
+    position: relative;
+    z-index: 20;
+    background-color: #000F10;
+    /* border: 2px solid white; */
+    width: 45rem;
+    height: 15rem;
+    margin-left: -20rem;
+    margin-top: -2rem;
+    margin-right: 9rem;
+}
+#a4 .bg h2{
+    color: #2A9A30;
+    padding: 2.5rem;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#a4 .bg p{
+    color: white;
+    padding: 0rem 2.5rem;
+    text-align: justify;
+    font-size: 0.9rem;
+}
+
+ #a4 .right{
+     width: 45%;
+     
+     position: relative;
+     z-index: 10;
+     /* border: 2px solid white; */
+     display: flex;
+     align-items:flex-end;
+     justify-content:baseline;
+     background-color: #2A9A30;
+     margin: 0rem 20rem 0rem 5rem;
+     /* border-radius: 50%; */
+ }
+ #a4 .right .img{
+     position: relative;
+     z-index: 15;
+     width: 25rem;
+     height: 30rem;
+     /* border: 2px solid white; */
+     margin-left: -13rem;
+     margin-right: 10rem;
+     background-image: url('/images/a4.png');
+     background-position: 50%;
+     background-size:cover;
+ }
+ #a4 .right .img .blue{
+    width: 60%;
+    height: 10%;
+    background-color: #22329A;
+    position: relative;
+    z-index: 30;
+    margin: 25rem 13rem 0rem -6rem;
+    display: flex;
+    align-items: center;
+ }
+ #a4 .right .img h2{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    padding-left: 1rem;
+    font-weight: 400;
+}
+
+
+/* -------------------------footer block---------------------- */
+
+
+
+ footer{
+     padding-top: 2rem;
+     background-color: #22329A;
+ }
+ .f{
+    opacity: 0.6;
+     display: flex;
+ }
+ footer .left{
+padding: 5rem;
+color: white;
+opacity: 0.6;
+font-size: 0.8rem;
+ }
+ footer .right{
+     color: white;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     padding: 5rem;
+ }
+ footer .right .item{
+     border: 2px solid transparent;
+     margin: 0.2rem;
+     padding: 0.5rem;
+ }
+ footer .right .item:hover{
+    border: 1px solid white;
+    cursor: pointer;
+    opacity: 1;
+ }
+ .cpy{
+     display: block;
+     border-top: 1px solid white;
+     text-align: center;
+     color: white;
+     padding: 1rem;
+     opacity: 0.6;
+ }
+
+
+ /* __________________________________________________________________________________________________________ */
+
+ @media (min-width: 576px) and (max-width:767px) { 
+     html{
+         font-size: 40%;
+     }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width:991px) { 
+    html{
+        font-size: 60%;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width:1199px) { 
+    html{
+        font-size: 80%;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1399px) { 
+    html{
+        font-size: 100%;
+    }
+ }
