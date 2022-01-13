@@ -497,7 +497,7 @@ background-color: #2A9A30;
      /* border: 2px solid white; */
      margin-left: -13rem;
      margin-right: 10rem;
-     background-image: url('/images/a4.png');
+     background-image: url('a4.png');
      background-position: 50%;
      background-size:cover;
  }
